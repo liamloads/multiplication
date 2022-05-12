@@ -176,6 +176,10 @@ const twexxorMultiplicationCalculator = function(_16_5, _16_6) {
 		}
 
 		if (_16_12[1] !== '.') {
+			if (_16_12 === '') {
+				_16_12 = '0';
+			}
+
 			_16_12 += '.';
 		}
 
