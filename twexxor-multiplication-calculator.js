@@ -136,7 +136,7 @@ const twexxorMultiplicationCalculator = function(_16_5, _16_6) {
 			_16_15 = _16_2(_16_12, _16_15);
 		}
 
-		_16_8[_16_9++] = _16_14;
+		_16_8[_16_9++] = _16_15;
 	}
 
 	console.log(_16_8)
