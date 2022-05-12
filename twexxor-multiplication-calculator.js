@@ -83,7 +83,7 @@ const twexxorMultiplicationCalculator = function(_16_5, _16_6) {
 			_16_14 = _16_12[1];
 
 			while (_16_14 === '0') {
-				_16_14 = _16_12[_16_7++];
+				_16_14 = _16_12[_16_7++ + 1];
 			}
 		}
 
