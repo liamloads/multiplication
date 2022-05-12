@@ -1,4 +1,5 @@
 const _16_0 = {'1': 1, '-1': 1};
+const _16_1 = {'NaN': 1};
 const _16_2 = require('twexxor-addition-calculator');
 const _16_3 = require('twexxor-highest-detector');
 const _16_4 = require('twexxor-string-repeater');
