@@ -206,7 +206,7 @@ const twexxorMultiplicationCalculator = function(_16_5, _16_6) {
 
 		while (_16_6 !== _16_11) {
 			if (_16_5[_16_11] === '.') {
-				_16_11++
+				_16_11++;
 				continue;
 			}
 
