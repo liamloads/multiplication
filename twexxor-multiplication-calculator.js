@@ -171,7 +171,7 @@ const twexxorMultiplicationCalculator = function(_16_5, _16_6) {
 
 		_16_11 = 1;
 		_16_12 = '';
-		_16_13 = 16_9 + '';
+		_16_13 = _16_9 + '';
 
 		if (_16_13[0] === '-') {
 			_16_14 = _16_13.length;
