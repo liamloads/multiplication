@@ -147,10 +147,10 @@ const twexxorMultiplicationCalculator = function(_16_5, _16_6) {
 			_16_9[_16_5[_16_11]] = _16_11++;
 		}
 
-		_16_9 = _16_9['.'] - _16_7;
+		_16_9 = _16_9['.'] - _16_7--;
 
 		if (typeof _16_1[_16_9] === 'number') {
-			_16_9 = _16_6;
+			_16_9 = _16_6 - _16_7;
 		}
 
 		_16_11 = 1;
@@ -210,7 +210,5 @@ const twexxorMultiplicationCalculator = function(_16_5, _16_6) {
 		_16_5 = _16_7;
 	}
 
-	console.log(_16_5)
-	// todo
 	return _16_5;
 };
