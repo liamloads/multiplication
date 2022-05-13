@@ -107,6 +107,7 @@ const twexxorMultiplicationCalculator = function(_16_5, _16_6) {
 
 		_16_16 = _16_7 + ((_16_7 === 0) - 0);
 		_16_7 = _16_14 - (_16_13[2] !== '0');
+		// todo
 
 		while (_16_14 !== _16_16) {
 			_16_15 += _16_13[_16_16++];
@@ -117,7 +118,6 @@ const twexxorMultiplicationCalculator = function(_16_5, _16_6) {
 
 	_16_5 = _16_12.length;
 	_16_6 = _16_6[_16_8];
-	// todo: _16_12[1] decimal position in _16_7 based on _16_6 '0.0[n]'
 	_16_8 = [];
 	_16_9 = 0;
 	let _16_18 = '';
