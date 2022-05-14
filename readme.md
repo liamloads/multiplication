@@ -14,7 +14,7 @@ twexxorMultiplicationCalculator('12345678912345678912345678912345678912345678912
 twexxorMultiplicationCalculator(1, -2); // '-2'
 twexxorMultiplicationCalculator('0000000000', 0); // '0'
 twexxorMultiplicationCalculator('-00', 10); // '0'
-twexxorMultiplicationCalculator('-0.04', '-0.05'); // 0.002
+twexxorMultiplicationCalculator('-0.04', -.05); // 0.002
 twexxorMultiplicationCalculator('0.04', '0.005'); // 0.0002
 twexxorMultiplicationCalculator('0.04', '-0.001'); // -0.00004
 twexxorMultiplicationCalculator('0.4', '0.5'); // 0.2
