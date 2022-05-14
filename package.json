@@ -1,7 +1,7 @@
 {
 	"dependencies": {
-		"twexxor-addition-calculator": "1.0.7",
-		"twexxor-highest-detector": "1.0.8",
+		"twexxor-addition-calculator": "1.0.8",
+		"twexxor-highest-detector": "1.0.9",
 		"twexxor-string-repeater": "1.0.8"
 	},
 	"main": "twexxor-multiplication-calculator.js",
@@ -10,5 +10,5 @@
 		"type": "git",
 		"url": "git://github.com/twexxor/javascript-multiplication-calculator.git"
 	},
-	"version": "1.0.1"
+	"version": "1.0.2"
 }
