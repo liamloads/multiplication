@@ -89,7 +89,7 @@ const twexxorMultiplicationCalculator = function(_16_5, _16_6) {
 	_16_7 = 0;
 	let _16_15 = 0;
 	let _16_16 = 0;
-	let _16_17 = 0;
+	let _16_17 = '';
 
 	if (_16_14 === 1) {
 		_16_13 = _16_12[1];
@@ -135,7 +135,7 @@ const twexxorMultiplicationCalculator = function(_16_5, _16_6) {
 			_16_16 += '';
 			_16_17 = '';
 
-			if (typeof _16_16[1] === 'undefined') {
+			if (typeof _16_16[1] === 'undefined' || (_16_6[0][3] === '0' && _16_6[1][3] === '0')) {
 				_16_17 = '0';
 			}
 		}
@@ -225,7 +225,7 @@ const twexxorMultiplicationCalculator = function(_16_5, _16_6) {
 			}
 
 			_16_9 = 1;
-			_16_12 = '0.' + _16_18 + _16_4('0', _16_15);
+			_16_12 = '0.' + _16_4('0', _16_15);
 		}
 
 		if (_16_9 !== 0) {
