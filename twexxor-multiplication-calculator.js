@@ -276,3 +276,7 @@ const twexxorMultiplicationCalculator = function(_16_5, _16_6) {
 
 	return _16_5;
 };
+
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
+	module.exports = twexxorMultiplicationCalculator;
+}
