@@ -89,7 +89,7 @@ const twexxorMultiplicationCalculator = function(_16_5, _16_6) {
 	_16_7 = 0;
 	let _16_15 = 0;
 	let _16_16 = 0;
-	let _16_17 = '';
+	let _16_17 = 0;
 
 	if (_16_14 === 1) {
 		_16_13 = _16_12[1];
@@ -155,6 +155,11 @@ const twexxorMultiplicationCalculator = function(_16_5, _16_6) {
 	_16_6 = _16_6[_16_8];
 	_16_8 = [];
 	_16_9 = 0;
+
+	if (_16_17 === 0) {
+		_16_17 = '';
+	}
+
 	let _16_18 = _16_17;
 	let _16_19 = '';
 	let _16_20 = '';
