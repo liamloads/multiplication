@@ -1,9 +1,11 @@
 {
 	"dependencies": {
-		"twexxor-addition-calculator": "1.0.9",
-		"twexxor-highest-detector": "1.1.0",
+		"twexxor-addition-calculator": "1.1.0",
+		"twexxor-highest-detector": "1.1.2",
 		"twexxor-string-repeater": "1.0.9"
 	},
+	"description": "Calculate huge number products with precise strings.",
+	"keywords": ["big", "calculation", "fast", "integer", "large", "math", "multiply", "precision", "times"],
 	"license": "Read license.md.",
 	"main": "twexxor-multiplication-calculator.js",
 	"name": "twexxor-multiplication-calculator",
@@ -11,5 +13,5 @@
 		"type": "git",
 		"url": "git://github.com/twexxor/javascript-multiplication-calculator.git"
 	},
-	"version": "1.0.3"
+	"version": "1.0.4"
 }
