@@ -97,6 +97,21 @@ int main(int _3, char *_4[]) {
         return 0;
     }
 
+    int _9 = 0;
+    int _10 = 0;
+
+    while (_4[2][_10++] != '\0') {}
+
+    char _11[_9];
+    _11[0] = '\0';
+    strncat(_11, _4[2], _10);
+    _0(_11, &_9, &_10, &_8);
+
+    if (_8 == -1) {
+        printf("false");
+        return 0;
+    }
+
     // todo
     return 0;
 }
