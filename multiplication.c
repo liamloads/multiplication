@@ -81,6 +81,22 @@ int main(int _3, char *_4[]) {
         return 0;
     }
 
+    int _5 = 0;
+    int _6 = 0;
+
+    while (_4[1][_6++] != '\0') {}
+
+    char _7[_6];
+    _7[0] = '\0';
+    strncat(_7, _4[1], _6);
+    int _8 = 0;
+    _0(_7, &_5, &_6, &_8);
+
+    if (_8 == -1) {
+        printf("false");
+        return 0;
+    }
+
     // todo
     return 0;
 }
