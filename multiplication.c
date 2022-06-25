@@ -71,7 +71,7 @@ void _1(char _2[], int *_3) {
     strncat(_2, _2, *_3 - _5);
 }
 
-void _2(char _3[], char _4[], int *_5, char _6[], int *_7) {
+void _2(int _3[], int *_4, int _5[], int *_6) {
     // todo
 }
 
@@ -110,6 +110,15 @@ int main(int _3, char *_4[]) {
     if (_8 == -1) {
         printf("false");
         return 0;
+    }
+
+    int _12[++_6];
+    _12[0] = 0;
+    int _13 = 0;
+    int _14 = 0;
+
+    while (_6 != ++_13) {
+        _12[_13] = _7[_14++];
     }
 
     // todo
