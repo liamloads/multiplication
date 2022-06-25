@@ -71,8 +71,12 @@ void _1(char _2[], int *_3) {
     strncat(_2, _2, *_3 - _5);
 }
 
-int main(int _2, char *_3[]) {
-    if ((_3[1] == (void *)0) || (_3[2] == (void *)0)) {
+void _2(char _3[], char _4[]) {
+    // todo
+}
+
+int main(int _3, char *_4[]) {
+    if ((_4[1] == (void *)0) || (_4[2] == (void *)0)) {
         printf("false");
         return 0;
     }
