@@ -71,7 +71,7 @@ void _1(char _2[], int *_3) {
     strncat(_2, _2, *_3 - _5);
 }
 
-void _2(char _3[], char _4[]) {
+void _2(char _3[], char _4[], char _5[]) {
     // todo
 }
 
