@@ -58,7 +58,7 @@ void _0(char _1[], int *_2, int *_3, int *_4) {
     *_3 = _8;
 }
 
-void _1(int _2[], int *_3, int _4[], int *_5) {
+void _1(int _2[], int *_3) {
     // todo
 }
 
