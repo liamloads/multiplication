@@ -60,7 +60,7 @@ void _0(char _1[], int *_2, int *_3, int *_4) {
 
 void _1(int _2[], int *_3, int _4[], int *_5, int *_6) {
     int _7 = *_6;
-    int _8 = *_6;
+    int _8 = _7;
     int _9 = 0;
     int _10 = 0;
     int _11 = 0;
