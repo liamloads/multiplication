@@ -164,8 +164,22 @@ int main(int _3, char *_4[]) {
     }
 
     if ((_6 == 1) && (_7[0] == 49)) {
-        // todo
-        printf("%s", _11);
+        if (_9 == _10) {
+            printf("%s", _11);
+        } else {
+            _5 = 0;
+
+            while (_5 != _9) {
+                printf("%c", _11[_5++]);
+            }
+
+            printf(".");
+
+            while (_5 != _10) {
+                printf("%c", _11[_5++]);
+            }
+        }
+
         return 0;
     }
 
