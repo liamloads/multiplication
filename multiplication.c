@@ -191,10 +191,14 @@ int main(int _3, char *_4[]) {
         if (_5 == _6) {
             printf("%s", _7);
         } else {
-            _8 = 0;
+            if (_5 == 0) {
+                printf("0");
+            } else {
+                _8 = 0;
 
-            while (_5 != _8) {
-                printf("%c", _7[_8++]);
+                while (_5 != _8) {
+                    printf("%c", _7[_8++]);
+                }
             }
 
             printf(".");
