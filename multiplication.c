@@ -167,10 +167,14 @@ int main(int _3, char *_4[]) {
         if (_9 == _10) {
             printf("%s", _11);
         } else {
-            _5 = 0;
+            if (_9 == 0) {
+                printf("0");
+            } else {
+                _5 = 0;
 
-            while (_5 != _9) {
-                printf("%c", _11[_5++]);
+                while (_5 != _9) {
+                    printf("%c", _11[_5++]);
+                }
             }
 
             printf(".");
