@@ -356,6 +356,7 @@ int main(int _3, char *_4[]) {
         }
     }
 
+    _5 = (_12 - _5) - _9;
     // todo
     return 0;
 }
