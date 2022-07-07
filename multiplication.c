@@ -173,7 +173,7 @@ int main(int _3, char *_4[]) {
             } else {
                 _7 = 0;
 
-                while (_7 != _9) {
+                while (_7 != _11) {
                     printf("%c", _10[_7++]);
                 }
             }
