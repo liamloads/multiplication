@@ -1,5 +1,3 @@
-In pre-release development.
-
 ## About
 
 #### Description
