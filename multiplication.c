@@ -173,11 +173,11 @@ int main(int _3, char *_4[]) {
         if (_9 == _11) {
             printf("%s", _10);
         } else {
+            _7 = 0;
+
             if (_11 == 0) {
                 printf("0");
             } else {
-                _7 = 0;
-
                 while (_7 != _11) {
                     printf("%c", _10[_7++]);
                 }
@@ -197,11 +197,11 @@ int main(int _3, char *_4[]) {
         if (_5 == _7) {
             printf("%s", _6);
         } else {
+            _8 = 0;
+
             if (_7 == 0) {
                 printf("0");
             } else {
-                _8 = 0;
-
                 while (_7 != _8) {
                     printf("%c", _6[_8++]);
                 }
