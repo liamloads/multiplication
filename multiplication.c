@@ -124,7 +124,7 @@ void _2(int _3[], int *_4, int *_5) {
 }
 
 int main(int _3, char *_4[]) {
-    if ((_4[1] == (void *)0) || (_4[2] == (void *)0)) {
+    if (_3 != 3) {
         printf("false");
         return 0;
     }
