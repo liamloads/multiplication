@@ -2,7 +2,6 @@
 #include <string.h>
 
 void _0(char _1[], int *_2, int *_3, int *_4) {
-    strncat(_1, ".", 2);
     int _5 = 0;
 
     if (_1[0] == '-') {
@@ -10,8 +9,14 @@ void _0(char _1[], int *_2, int *_3, int *_4) {
         _5++;
     }
 
+    if (_1[_5] == '\0') {
+        *_4 = -1;
+        return;
+    }
+
     while (_1[_5++] == '0') {}
 
+    strncat(_1, ".", 2);
     int _6 = --_5;
     int _7 = 0;
     int _8 = 0;
