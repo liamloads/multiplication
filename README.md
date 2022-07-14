@@ -13,18 +13,18 @@ It's written in C and can be compiled as a lightweight binary to use with any pr
 #### Linux
 ``` console
 cd
-sudo git clone https://github.com/liamloads/multiplication.git
+git clone https://github.com/liamloads/multiplication.git
 cd multiplication
-sudo gcc -o multiplication multiplication.c
+gcc -o multiplication multiplication.c
 ```
 
 ## Usage
 
 #### Details
 
-The command line interface accepts two numeric parameters.
+The command line interface accepts two numeric arguments.
 
-The result is the first parameter multiplied by the second parameter.
+The result is the first argument multiplied by the second argument.
 
 #### Examples
 
