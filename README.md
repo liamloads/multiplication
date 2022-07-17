@@ -1,21 +1,21 @@
 ## About
 
 #### Description
-This is a fast and memory-efficient calculator tool for products of big numbers with full precision.
+This is the fastest command line tool for calculating differences of big numbers with infinite precision.
 
-It's written in C and can be compiled as a lightweight binary to use with any programming language that supports command line execution.
+It's written in C with extreme efficiency and simplicity.
 
 #### License
-[MIT License](https://github.com/liamloads/multiplication/blob/main/LICENSE)
+[MIT License](https://github.com/liamloads/c-precision-multiplication/blob/main/LICENSE)
 
 ## Installation
 
-#### Linux
+#### Unix
 ``` console
 cd
-git clone https://github.com/liamloads/multiplication.git
-cd multiplication
-gcc -o multiplication multiplication.c
+git clone https://github.com/liamloads/c-precision-multiplication.git
+cd c-precision-multiplication
+gcc -o c-precision-multiplication c-precision-multiplication.c
 ```
 
 ## Usage
@@ -29,33 +29,33 @@ The result is the first argument multiplied by the second argument.
 #### Examples
 
 ``` console
-./multiplication 1 10
+./c-precision-multiplication 1 10
 10
 
-./multiplication 30 4
+./c-precision-multiplication 30 4
 120
 
-./multiplication -00 10
+./c-precision-multiplication -00 10
 0
 
-./multiplication -0.04 -.05
+./c-precision-multiplication -0.04 -.05
 0.002
 
-./multiplication 0.04 -0.001
+./c-precision-multiplication 0.04 -0.001
 -0.00004
 
-./multiplication 0.4 0.5
+./c-precision-multiplication 0.4 0.5
 0.2
 
-./multiplication 0.04 0.5
+./c-precision-multiplication 0.04 0.5
 0.02
 
-./multiplication -000123456.00000078900 10.2340
+./c-precision-multiplication -000123456.00000078900 10.2340
 -1263448.704008074626
 
-./multiplication -0.000000123456789123456789 1.0101010101010101010101010101010101010101010101010101010101
+./c-precision-multiplication -0.000000123456789123456789 1.0101010101010101010101010101010101010101010101010101010101
 -0.0000001247038273974310999999999999999999999999999999999999999999998752961726025689
 
-./multiplication 1 _
+./c-precision-multiplication 1 _
 false
 ```
