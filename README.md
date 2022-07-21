@@ -1,7 +1,7 @@
 ## About
 
 #### Description
-This is a fast command line tool for calculating multiplication with infinite precision.
+This is a fast command line tool for calculating high-precision multiplication.
 
 It's written in C with extreme efficiency and simplicity.
 
