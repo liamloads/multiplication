@@ -1,7 +1,7 @@
 ## About
 
 #### Description
-This is the fastest command line tool for calculating differences of big numbers with infinite precision.
+This is a fast command line tool for calculating multiplication with infinite precision.
 
 It's written in C with extreme efficiency and simplicity.
 
